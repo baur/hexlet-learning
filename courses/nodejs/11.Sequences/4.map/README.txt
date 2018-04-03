@@ -22,8 +22,6 @@ const dom1 = make();
 const dom2 = append(dom1, node('h1', 'scheme'));
 const dom3 = append(dom2, node('p', 'is a lisp'));
 
-// <h1>emehcs</h1>
-// <p>psil a si</p>
 htmlToString(mirror(dom3));
 Экспортируйте все созданные функции.
 
